@@ -384,7 +384,7 @@ Wire Wire Line
 	7600 1600 7600 1800
 Text Label 5900 1950 0    60   ~ 0
 MISO
-Text Label 5900 1850 0    60   ~ 0
+Text Label 5900 1750 0    60   ~ 0
 CS_MEM
 Text Label 8150 1850 2    60   ~ 0
 CS_MEM
@@ -394,7 +394,7 @@ Text Label 9250 1850 0    60   ~ 0
 MOSI
 Text Label 9250 1750 0    60   ~ 0
 MISO
-Text Label 5900 1750 0    60   ~ 0
+Text Label 5900 1850 0    60   ~ 0
 HOLD_MEM
 Text Label 9250 1950 0    60   ~ 0
 HOLD_MEM
@@ -409,7 +409,7 @@ F 1 "SW_PUSH" H 8600 5070 50  0000 C CNN
 F 2 "Omat:SKTDLDE010" H 8600 5150 60  0001 C CNN
 F 3 "" H 8600 5150 60  0000 C CNN
 	1    8600 5150
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L SW_PUSH SW2
@@ -431,7 +431,7 @@ F 1 "SW_PUSH" H 8600 5720 50  0000 C CNN
 F 2 "Omat:SKTDLDE010" H 8600 5800 60  0001 C CNN
 F 3 "" H 8600 5800 60  0000 C CNN
 	1    8600 5800
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L SW_PUSH SW4
@@ -462,11 +462,11 @@ Text Label 8300 5800 2    60   ~ 0
 SW3
 Text Label 8300 6100 2    60   ~ 0
 SW4
-Text Label 5900 3650 0    60   ~ 0
+Text Label 5900 3350 0    60   ~ 0
 SW1
-Text Label 5900 4150 0    60   ~ 0
+Text Label 5900 4550 0    60   ~ 0
 SW2
-Text Label 5900 3550 0    60   ~ 0
+Text Label 5900 3250 0    60   ~ 0
 SW3
 Text Label 5900 2150 0    60   ~ 0
 SW4
@@ -516,8 +516,6 @@ Wire Wire Line
 	6500 5350 7000 5350
 Wire Wire Line
 	6500 5350 6500 4250
-Wire Wire Line
-	6500 4250 5900 4250
 Connection ~ 7000 5350
 $Comp
 L C C14
@@ -596,13 +594,13 @@ Text Label 6400 7000 2    60   ~ 0
 MCU_TX
 Wire Wire Line
 	6000 6900 6000 7200
-Text GLabel 6700 2650 2    60   Input ~ 0
+Text GLabel 6150 2950 2    60   Input ~ 0
 MCU_CTS
-Text GLabel 6700 3250 2    60   Input ~ 0
+Text GLabel 6150 3150 2    60   Input ~ 0
 MCU_RTS
-Text GLabel 6700 2800 2    60   Input ~ 0
+Text GLabel 6150 3050 2    60   Input ~ 0
 MCU_TX
-Text GLabel 6700 2500 2    60   Input ~ 0
+Text GLabel 6150 2850 2    60   Input ~ 0
 MCU_RX
 $Sheet
 S 9900 6000 500  150 
@@ -695,52 +693,32 @@ F 3 "" H 6250 6450 60  0000 C CNN
 	1    6250 6450
 	1    0    0    -1  
 $EndComp
-Text GLabel 6150 3950 2    60   Input ~ 0
-DC_DISP
-Text GLabel 6150 4050 2    60   Input ~ 0
-RST_DISP
 Text GLabel 6150 3850 2    60   Input ~ 0
+DC_DISP
+Text GLabel 6150 3950 2    60   Input ~ 0
+RST_DISP
+Text GLabel 6150 4450 2    60   Input ~ 0
 CS_DISP
+Wire Wire Line
+	6150 3950 5900 3950
+Wire Wire Line
+	5900 3850 6150 3850
+Text GLabel 6150 4050 2    60   Input ~ 0
+SCK
+Text GLabel 6150 4150 2    60   Input ~ 0
+MOSI
 Wire Wire Line
 	6150 4050 5900 4050
 Wire Wire Line
-	5900 3950 6150 3950
-Text GLabel 6150 4550 2    60   Input ~ 0
-SCK
-Text GLabel 6150 4350 2    60   Input ~ 0
-MOSI
-Wire Wire Line
-	6150 4550 5900 4550
-Wire Wire Line
-	6150 4350 5900 4350
-Text GLabel 6150 3350 2    60   Input ~ 0
+	6150 4150 5900 4150
+Text GLabel 6150 3750 2    60   Input ~ 0
 DISP_EN
-Wire Wire Line
-	6600 2750 5900 2750
-Wire Wire Line
-	6700 2650 6600 2650
-Wire Wire Line
-	6600 2650 6600 2750
-Wire Wire Line
-	6700 2500 6500 2500
-Wire Wire Line
-	6500 2500 6500 2650
-Wire Wire Line
-	6500 2650 5900 2650
-Wire Wire Line
-	5900 2850 6650 2850
-Wire Wire Line
-	6650 2850 6650 2800
-Wire Wire Line
-	6650 2800 6700 2800
-Wire Wire Line
-	6700 3250 5900 3250
 Text Label 5900 2050 0    60   ~ 0
 WP_MEM
 Wire Wire Line
-	6150 3850 5900 3850
+	6150 4450 5900 4450
 Wire Wire Line
-	5900 3350 6150 3350
+	5900 3750 6150 3750
 $Comp
 L GND #PWR015
 U 1 1 547CF18E
@@ -773,4 +751,14 @@ Wire Wire Line
 Wire Wire Line
 	7600 2350 7950 2350
 Connection ~ 7950 2350
+Wire Wire Line
+	5900 2850 6150 2850
+Wire Wire Line
+	6150 3150 5900 3150
+Wire Wire Line
+	5900 3050 6150 3050
+Wire Wire Line
+	6150 2950 5900 2950
+Wire Wire Line
+	6500 4250 5900 4250
 $EndSCHEMATC

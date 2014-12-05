@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201412031631+5310~19~ubuntu14.04.1-product   date = to  4. joulukuuta 2014 00.53.23
+Cmp-Mod V01 Created by Cvpcb (2014-12-03 BZR 5311)-product   date = to  4. joulukuuta 2014 10.43.44
 
 BeginCmp
 TimeStamp = /5462AC04/5462B327;
@@ -197,13 +197,6 @@ IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5459B076/5459F911;
-Reference = C28;
-ValeurCmp = 100nF;
-IdModule  = SMD_Packages:SMD-0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /5459B076/5459DD68;
 Reference = C29;
 ValeurCmp = 100nF;
@@ -239,13 +232,6 @@ IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5459B076/545C5D16;
-Reference = C34;
-ValeurCmp = 1uF;
-IdModule  = SMD_Packages:SMD-0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /546AB3F2/546B03A9;
 Reference = C35;
 ValeurCmp = 1u;
@@ -263,7 +249,7 @@ BeginCmp
 TimeStamp = /5459B076/5459B310;
 Reference = CON1;
 ValeurCmp = USB-MICRO-B;
-IdModule  = Omat:USB_MICRO_AB_FEMALE;
+IdModule  = Omat:USB_MICRO_B_FEMALE_MIDMOUNT;
 EndCmp
 
 BeginCmp
@@ -276,8 +262,8 @@ EndCmp
 BeginCmp
 TimeStamp = /5459B076/5459CD4B;
 Reference = F1;
-ValeurCmp = PPTC;
-IdModule  = SMD_Packages:SMD-0805;
+ValeurCmp = MF-FSMF050X-2;
+IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
