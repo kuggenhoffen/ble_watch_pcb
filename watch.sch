@@ -549,8 +549,6 @@ F 3 "" H 1700 1400 60  0000 C CNN
 	1    1700 1400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1700 1400 1700 1600
 NoConn ~ 3600 3100
 Wire Wire Line
 	6400 6500 6250 6500
@@ -594,13 +592,13 @@ Text Label 6400 7000 2    60   ~ 0
 MCU_TX
 Wire Wire Line
 	6000 6900 6000 7200
-Text GLabel 6150 2950 2    60   Input ~ 0
+Text GLabel 7200 2950 2    60   Input ~ 0
 MCU_CTS
-Text GLabel 6150 3150 2    60   Input ~ 0
+Text GLabel 7200 3150 2    60   Input ~ 0
 MCU_RTS
-Text GLabel 6150 3050 2    60   Input ~ 0
+Text GLabel 7200 3050 2    60   Input ~ 0
 MCU_TX
-Text GLabel 6150 2850 2    60   Input ~ 0
+Text GLabel 7200 2850 2    60   Input ~ 0
 MCU_RX
 $Sheet
 S 9900 6000 500  150 
@@ -693,32 +691,32 @@ F 3 "" H 6250 6450 60  0000 C CNN
 	1    6250 6450
 	1    0    0    -1  
 $EndComp
-Text GLabel 6150 3850 2    60   Input ~ 0
+Text GLabel 7200 3850 2    60   Input ~ 0
 DC_DISP
-Text GLabel 6150 3950 2    60   Input ~ 0
+Text GLabel 7200 3950 2    60   Input ~ 0
 RST_DISP
-Text GLabel 6150 4450 2    60   Input ~ 0
+Text GLabel 7200 4450 2    60   Input ~ 0
 CS_DISP
 Wire Wire Line
-	6150 3950 5900 3950
+	5900 3950 7200 3950
 Wire Wire Line
-	5900 3850 6150 3850
-Text GLabel 6150 4050 2    60   Input ~ 0
+	5900 3850 7200 3850
+Text GLabel 7200 4050 2    60   Input ~ 0
 SCK
-Text GLabel 6150 4150 2    60   Input ~ 0
+Text GLabel 7200 4150 2    60   Input ~ 0
 MOSI
 Wire Wire Line
-	6150 4050 5900 4050
+	5900 4050 7200 4050
 Wire Wire Line
-	6150 4150 5900 4150
-Text GLabel 6150 3750 2    60   Input ~ 0
+	5900 4150 7200 4150
+Text GLabel 7200 3750 2    60   Input ~ 0
 DISP_EN
 Text Label 5900 2050 0    60   ~ 0
 WP_MEM
 Wire Wire Line
-	6150 4450 5900 4450
+	7200 4450 5900 4450
 Wire Wire Line
-	5900 3750 6150 3750
+	5900 3750 7200 3750
 $Comp
 L GND #PWR015
 U 1 1 547CF18E
@@ -752,13 +750,100 @@ Wire Wire Line
 	7600 2350 7950 2350
 Connection ~ 7950 2350
 Wire Wire Line
-	5900 2850 6150 2850
+	5900 2850 7200 2850
 Wire Wire Line
-	6150 3150 5900 3150
+	7200 3150 5900 3150
 Wire Wire Line
-	5900 3050 6150 3050
+	5900 3050 7200 3050
 Wire Wire Line
-	6150 2950 5900 2950
+	7200 2950 5900 2950
 Wire Wire Line
 	6500 4250 5900 4250
+$Comp
+L TST TP7
+U 1 1 548216F3
+P 7100 3650
+F 0 "TP7" H 7100 3950 40  0000 C CNN
+F 1 "TST" H 7100 3900 30  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7100 3650 60  0001 C CNN
+F 3 "" H 7100 3650 60  0000 C CNN
+	1    7100 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3650 7100 3750
+Connection ~ 7100 3750
+$Comp
+L TST TP6
+U 1 1 548223E0
+P 6950 3650
+F 0 "TP6" H 6950 3950 40  0000 C CNN
+F 1 "TST" H 6950 3900 30  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6950 3650 60  0001 C CNN
+F 3 "" H 6950 3650 60  0000 C CNN
+	1    6950 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 3650 6950 3850
+Connection ~ 6950 3850
+$Comp
+L TST TP5
+U 1 1 54822867
+P 6800 3650
+F 0 "TP5" H 6800 3950 40  0000 C CNN
+F 1 "TST" H 6800 3900 30  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6800 3650 60  0001 C CNN
+F 3 "" H 6800 3650 60  0000 C CNN
+	1    6800 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3650 6800 3950
+Connection ~ 6800 3950
+$Comp
+L TST TP3
+U 1 1 54822938
+P 6650 3650
+F 0 "TP3" H 6650 3950 40  0000 C CNN
+F 1 "TST" H 6650 3900 30  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6650 3650 60  0001 C CNN
+F 3 "" H 6650 3650 60  0000 C CNN
+	1    6650 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3650 6650 4050
+Connection ~ 6650 4050
+$Comp
+L TST TP2
+U 1 1 54822ADA
+P 6500 3650
+F 0 "TP2" H 6500 3950 40  0000 C CNN
+F 1 "TST" H 6500 3900 30  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6500 3650 60  0001 C CNN
+F 3 "" H 6500 3650 60  0000 C CNN
+	1    6500 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3650 6500 4150
+Connection ~ 6500 4150
+$Comp
+L TST TP4
+U 1 1 54822DDC
+P 6700 1900
+F 0 "TP4" H 6700 2200 40  0000 C CNN
+F 1 "TST" H 6700 2150 30  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6700 1900 60  0001 C CNN
+F 3 "" H 6700 1900 60  0000 C CNN
+	1    6700 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 1950 6700 1950
+Wire Wire Line
+	6700 1950 6700 1900
+Wire Wire Line
+	1700 1400 1700 1600
 $EndSCHEMATC

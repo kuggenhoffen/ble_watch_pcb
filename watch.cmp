@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-12-03 BZR 5311)-product   date = to  4. joulukuuta 2014 10.43.44
+Cmp-Mod V01 Created by Cvpcb (2014-12-03 BZR 5311)-product   date = pe  5. joulukuuta 2014 23.19.52
 
 BeginCmp
 TimeStamp = /5462AC04/5462B327;
@@ -344,6 +344,13 @@ IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /5459B076/548268AF;
+Reference = R7;
+ValeurCmp = 0;
+IdModule  = SMD_Packages:SMD-0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /5459B076/545A3874;
 Reference = R9;
 ValeurCmp = 1K;
@@ -418,6 +425,76 @@ TimeStamp = /545CC411;
 Reference = SW4;
 ValeurCmp = SW_PUSH;
 IdModule  = Omat:SKTDLDE010;
+EndCmp
+
+BeginCmp
+TimeStamp = /54822ADA;
+Reference = TP2;
+ValeurCmp = TST;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = /54822938;
+Reference = TP3;
+ValeurCmp = TST;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = /54822DDC;
+Reference = TP4;
+ValeurCmp = TST;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = /54822867;
+Reference = TP5;
+ValeurCmp = TST;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = /548223E0;
+Reference = TP6;
+ValeurCmp = TST;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = /548216F3;
+Reference = TP7;
+ValeurCmp = TST;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = /5459B076/54824541;
+Reference = TP8;
+ValeurCmp = TST;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = /5459B076/54823BAF;
+Reference = TP9;
+ValeurCmp = TST;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = /5459B076/54823A99;
+Reference = TP10;
+ValeurCmp = TST;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = /5459B076/54824A64;
+Reference = TP11;
+ValeurCmp = TST;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
 EndCmp
 
 BeginCmp
