@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-12-03 BZR 5311)-product   date = pe  5. joulukuuta 2014 23.19.52
+Cmp-Mod V01 Created by Cvpcb (2014-12-03 BZR 5311)-product   date = su  7. joulukuuta 2014 02.16.09
 
 BeginCmp
 TimeStamp = /5462AC04/5462B327;
@@ -17,98 +17,98 @@ EndCmp
 BeginCmp
 TimeStamp = /5402EBD0;
 Reference = C1;
-ValeurCmp = 12pF;
+ValeurCmp = 12p;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5402EBD1;
 Reference = C2;
-ValeurCmp = 12pF;
+ValeurCmp = 12p;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5459810C;
 Reference = C3;
-ValeurCmp = 12pF;
+ValeurCmp = 12p;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54598112;
 Reference = C4;
-ValeurCmp = 12pF;
+ValeurCmp = 12p;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5462AC04/5462B354;
 Reference = C5;
-ValeurCmp = 2.2nF;
+ValeurCmp = 2200p;
 IdModule  = SMD_Packages:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /5462AC04/5462B36C;
 Reference = C6;
-ValeurCmp = 2.2pF;
+ValeurCmp = 2.2p;
 IdModule  = SMD_Packages:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /545968B0;
 Reference = C7;
-ValeurCmp = 1nF;
+ValeurCmp = 1000p;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5462AC04/5462B373;
 Reference = C8;
-ValeurCmp = 1pF;
+ValeurCmp = 1p;
 IdModule  = SMD_Packages:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /545963F9;
 Reference = C9;
-ValeurCmp = 47nF;
+ValeurCmp = 0.047u;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /545955BA;
 Reference = C10;
-ValeurCmp = 100nF;
+ValeurCmp = 0.1u;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54596363;
 Reference = C11;
-ValeurCmp = 100nF;
+ValeurCmp = 0.1u;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /545952C9;
 Reference = C12;
-ValeurCmp = 100nF;
+ValeurCmp = 0.1u;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5462AC04/5462B381;
 Reference = C13;
-ValeurCmp = 1.5pF;
+ValeurCmp = 1.5p;
 IdModule  = SMD_Packages:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /545D0538;
 Reference = C14;
-ValeurCmp = 22nF;
+ValeurCmp = 0.022u;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
@@ -136,98 +136,105 @@ EndCmp
 BeginCmp
 TimeStamp = /546AB3F2/546AF488;
 Reference = C18;
-ValeurCmp = 100n;
+ValeurCmp = 0.1u;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /546AB3F2/546AB67B;
 Reference = C19;
-ValeurCmp = 100n;
+ValeurCmp = 0.1u;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5459B076/5459D919;
 Reference = C20;
-ValeurCmp = 10nF;
+ValeurCmp = 0.01u;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5459B076/545A50D3;
 Reference = C21;
-ValeurCmp = 1uF;
+ValeurCmp = 1u;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /547D0D02;
 Reference = C22;
-ValeurCmp = 100nF;
+ValeurCmp = 0.1u;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5459B076/545A029E;
 Reference = C23;
-ValeurCmp = 100nF;
+ValeurCmp = 0.1u;
+IdModule  = SMD_Packages:SMD-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5459B076/54839CDB;
+Reference = C24;
+ValeurCmp = 2.2u;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5459B076/545A28B5;
 Reference = C25;
-ValeurCmp = 100nF;
+ValeurCmp = 0.1u;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5459B076/5459E9B2;
 Reference = C26;
-ValeurCmp = 100nF;
+ValeurCmp = 0.1u;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5459B076/5459FD49;
+TimeStamp = /5459B076/5483AE74;
 Reference = C27;
-ValeurCmp = 4.7uF;
+ValeurCmp = 0.1u;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5459B076/5459DD68;
 Reference = C29;
-ValeurCmp = 100nF;
+ValeurCmp = 0.1u;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5459B076/545C2781;
 Reference = C30;
-ValeurCmp = 4.7uF;
+ValeurCmp = 4.7u;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5459B076/545C3DB1;
 Reference = C31;
-ValeurCmp = 1uF;
+ValeurCmp = 1u;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5459B076/545C36ED;
 Reference = C32;
-ValeurCmp = 100nF;
+ValeurCmp = 0.1u;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5459B076/545C4A36;
 Reference = C33;
-ValeurCmp = 100nF;
+ValeurCmp = 0.1u;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
@@ -269,21 +276,21 @@ EndCmp
 BeginCmp
 TimeStamp = /5462AC04/5462B346;
 Reference = L1;
-ValeurCmp = 4.7nH;
+ValeurCmp = 4.7n;
 IdModule  = SMD_Packages:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /5462AC04/5462B34D;
 Reference = L2;
-ValeurCmp = 10nH;
+ValeurCmp = 10n;
 IdModule  = SMD_Packages:SMD-0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /5462AC04/5462B37A;
 Reference = L3;
-ValeurCmp = 3.3nH;
+ValeurCmp = 3.3n;
 IdModule  = SMD_Packages:SMD-0402;
 EndCmp
 
