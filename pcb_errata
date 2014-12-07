@@ -1,0 +1,2 @@
+REVISION 1.0 from OSHPARK:
+- Missing 2.2uF low ESR capacitor from U5 LDO output, can be fixed by adding cap between R10 and R11 or on TP8.
