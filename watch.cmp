@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-12-03 BZR 5311)-product   date = su  7. joulukuuta 2014 02.16.09
+Cmp-Mod V01 Created by Cvpcb 0.201412201901+5330~19~ubuntu14.04.1-product   date = to 25. joulukuuta 2014 11.50.58
 
 BeginCmp
 TimeStamp = /5462AC04/5462B327;
@@ -178,7 +178,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5459B076/54839CDB;
 Reference = C24;
-ValeurCmp = 2.2u;
+ValeurCmp = 2200p;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
@@ -435,6 +435,13 @@ IdModule  = Omat:SKTDLDE010;
 EndCmp
 
 BeginCmp
+TimeStamp = /549BE1CE;
+Reference = TP1;
+ValeurCmp = TST;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+EndCmp
+
+BeginCmp
 TimeStamp = /54822ADA;
 Reference = TP2;
 ValeurCmp = TST;
@@ -505,10 +512,38 @@ IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
 EndCmp
 
 BeginCmp
+TimeStamp = /549BE744;
+Reference = TP12;
+ValeurCmp = TST;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = /549BD8A2;
+Reference = TP13;
+ValeurCmp = TST;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = /549BD8DB;
+Reference = TP14;
+ValeurCmp = TST;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = /549BF2A3;
+Reference = TP15;
+ValeurCmp = TST;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+EndCmp
+
+BeginCmp
 TimeStamp = /5402EBCE;
 Reference = U1;
 ValeurCmp = nrf51822;
-IdModule  = Housings_DFN_QFN:QFN-48-1EP_7x7mm_Pitch0.5mm;
+IdModule  = Housings_QFN_DFN:UQFN-48-1EP_6x6mm_Pitch0.4mm;
 EndCmp
 
 BeginCmp
