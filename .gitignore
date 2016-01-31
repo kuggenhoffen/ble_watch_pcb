@@ -3,4 +3,5 @@ _autosave*
 *.kicad_pcb-bak
 *.gbr
 *.drl
-*.pdf
+*.rar
+*.xml

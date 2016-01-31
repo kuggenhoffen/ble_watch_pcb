@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:watch-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,10 +37,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "BLE Watch for HRM"
+Date "8 nov 2014"
+Rev "2"
+Comp "Jaakko Kukkohovi"
 Comment1 ""
 Comment2 ""
 Comment3 ""
